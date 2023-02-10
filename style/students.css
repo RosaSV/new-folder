@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('./footer.css');
+@import url('./header.css');
+
+.root {
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    font-family:'Roboto', sans-serif;
+    width: 1250px;
+    margin: 37px 119px 497px 119px;
+}
+
+.main__item {
+    height: 36px;
+    left: 119px;
+    top: 117px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    margin: 0 0 24px 0;
+}
+
+.students {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.studet-photo {
+    width: 200px;
+    height: 270px;
+    left: 870px;
+    top: 177px;
+    margin: 0 50px 0 0;
+}
+
+.tag {
+    background: rgb(27, 192, 27);
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 21px;
+    left: 503px;
+    top: 147px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        max-width: 700px;
+        margin: 40px 40px;
+    }
+
+    .students {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .studet-photo {
+        margin: 10px 10px;
+    }
+
+    .main__item {
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        max-width: 320px;
+        margin: 40px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .tag {
+        top: 150px;
+        left: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tag {
+        top: 199px;
+        left: 420px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tag {
+        top: 670px;
+        left: 180px;
+    }
+}

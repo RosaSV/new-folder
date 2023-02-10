@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('./footer.css');
+@import url('./header.css');
+
+.root {
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    font-family:'Roboto', sans-serif;
+}
+
+.main__map {
+    height: 370px;
+    width: 1268px;
+    top: 173px;
+    margin: 0 86px 0 86px;
+}
+
+.main__contact-map {
+    width: 245px;
+    height: 35px;
+    left: 200px;
+    top: 113px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin: 33px 0 25px 256px;
+}
+
+.main__contact-item {
+    width: 439px;
+    height: 63px;
+    left: 202px;
+    top: 597px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0 0 360px 288px;
+}
+
+.main__contact {
+    width: 185px;
+    height: 29px;
+    left: 202px;
+    top: 558px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 15px 0 10px 288px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .content {
+        margin: 0 80px;
+    }
+    
+    .main__map {
+        width: 1000px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        margin: 0 60px;
+    }
+
+    .main__map {
+        width: 700px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        margin: 15px 15px;
+    }
+
+    .main__map {
+        width: 400px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .main__contact-map {
+        margin: 15px 90px;
+    }
+
+    .main__contact {
+        margin: 15px 90px;
+    }
+
+    .main__contact-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 15px 25px 100px 90px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content {
+        margin: 0 auto;
+    }
+
+    .main__map {
+        margin: 15px 40px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .main__contact-map {
+        margin: 15px 40px;
+    }
+    
+    .main__contact-item {
+        margin: 15px 60px 80px 60px;
+        width: 200px;
+    }
+}

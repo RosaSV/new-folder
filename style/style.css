@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('./footer.css');
+@import url('./header.css');
+
+.root {
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    font-family:'Roboto', sans-serif;
+    width: 911px;
+    margin: 33px auto 0 auto;
+}
+
+.content__title {
+    font-style: normal;
+    margin: 0 0 25px 0;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.photo {
+    width: 525px;
+    height: 316px;
+}
+
+.content__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__bottom-text-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin: 15px 0 0 0;
+    max-width: 634px;
+}
+
+.content__bottom-text-item:nth-of-type(2n) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 10px 0 0 0;
+}
+
+.content__bottom-learn {
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+    width: 185px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__title {
+        width: 550px;
+        margin: 15px 0 25px 0;
+    }
+    
+    .content__bottom {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    .content__title {
+        width: 300px;
+        margin: 25px 0 15px 0;
+    }
+
+    .photo {
+        margin: 0 40px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .content__bottom {
+        margin: 0 25px;
+    }
+}
+
+

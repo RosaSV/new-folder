@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('./footer.css');
+@import url('./header.css');
+
+.root {
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    font-family:'Roboto', sans-serif;
+    width: 820px;
+    margin: 33px auto 0 auto;
+}
+
+.main__item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 25px 0;
+}
+
+.main__lecture {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    width: 288px;
+    height: 29px;
+    left: 286px;
+    top: 173px;
+    margin: 0 15px 820px 0;
+}
+
+.main__iframe {
+    height: 549.33px;
+    width: 820px;
+    border: 2px solid #EA5D21;
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        width: 750px;
+    }
+
+    .main__iframe {
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        bottom: 500px;
+        right: 500px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .main__item {
+        margin: 40px 100px;
+        height: 40px;
+    }
+
+    .main__lecture {
+        margin: 25px 100px 600px 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 420px;
+    }
+
+    .main__iframe {
+        position: absolute;
+        top: 450px;
+        left: 100px;
+        bottom: 500px;
+        right: 500px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main__iframe {
+        position: absolute;
+        top: 450px;
+        left: 30px;
+        bottom: 500px;
+        right: 500px;
+        width: 250px;
+        height: 400px;
+    }
+
+    .main__lecture {
+        margin: 25px 25px 600px 25px;
+    }
+
+    .main__item {
+        margin: 40px 50px;
+        width: 200px;
+    }
+}

@@ -55,6 +55,15 @@
     position: absolute;
 }
 
+.student__about {
+    text-decoration: none;
+    transition: .3s;
+}
+
+.student__about:hover {
+    opacity: 0.4;
+}
+
 @media screen and (max-width: 1024px) {
     .main {
         max-width: 700px;

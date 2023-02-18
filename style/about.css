@@ -1,27 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
 .root {
     font-family: 'Roboto', sans-serif; 
     background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.headeng {
+    margin: 0 100px;
+    width: calc(100% - 200px);
+    height: 80px;
+    background: #cc9b62;
+    border-radius: 5px;
+}
+
+.headeng {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.headeng__main {
+    color: #754e20;
+    text-decoration: none;
+    transition: .3s;
+    font-family: 'Niconne', cursive;
+}
+
+.headeng__main:hover {
+    text-decoration: none;
+    opacity: .5;
+}
+
+.headeng__title {
+    margin: 16px;
+}
+
+.headeng__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.headeng__item {
+    padding: 0 18px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
 }
 
 .page {
     max-width: 950px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
-
-/* .info {
-    display: flex;
-} */
 
 .info__image {
     width: 200px;
     height: 250px;
     border-radius: 100px;
-    /* border: 2px solid rgb(223, 50, 194); */
-    box-shadow: 0 0 5px 5px rgb(82, 9, 131);
+    box-shadow: 0 0 5px 5px #a36014;
     margin-right: 35px;
     float: left;
 } 
@@ -35,3 +83,36 @@
     margin: 0;
 }
 
+.card {
+    width: 100%;
+    height: 250px;
+    background-color: #faca92;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 3px rgb(207, 112, 34);
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.card__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card__list-item {
+    margin: 15px 15px;
+    font-size: 25px;
+    color: #a36014;
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-size: 35px;
+    color: #a36014;
+}

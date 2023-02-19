@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('./footer.css');
 
 .root {
     font-family: 'Roboto', sans-serif; 
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
 
@@ -11,7 +12,7 @@
     margin: 10px 170px;
     width: calc(100% - 340px);
     height: 80px;
-    background: #cc9b62;
+    background: #213B7E;
     border-radius: 5px;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .headeng__main {
-    color: #754e20;
+    color: #ffffff;
     text-decoration: none;
     transition: .3s;
     font-family: 'Niconne', cursive;
@@ -56,6 +57,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    color: #ffffff;
 }
 
 .page {
@@ -69,7 +71,7 @@
     width: 200px;
     height: 250px;
     border-radius: 100px;
-    box-shadow: 0 0 5px 5px #a36014;
+    box-shadow: 0 0 5px 5px #18274e;
     margin-right: 35px;
     float: left;
 } 
@@ -86,10 +88,10 @@
 .card {
     width: 100%;
     height: 250px;
-    background-color: #faca92;
+    background-color: #4165c0;
     margin-top: 40px;
     border-radius: 20px;
-    box-shadow: 0 0 5px 3px rgb(207, 112, 34);
+    box-shadow: 0 0 5px 3px rgb(29, 53, 133);
     padding: 40px 80px;
     box-sizing: border-box;
 }
@@ -105,7 +107,7 @@
 .card__list-item {
     margin: 15px 15px;
     font-size: 25px;
-    color: #a36014;
+    color: #ffffff;
 }
 
 .card__title {
@@ -114,5 +116,5 @@
     justify-content: center;
     font-style: normal;
     font-size: 35px;
-    color: #a36014;
+    color: #ffffff;
 }

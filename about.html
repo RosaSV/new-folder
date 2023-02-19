@@ -9,16 +9,34 @@
     <link rel="stylesheet" href="./style/about.css">
 </head>
 <body class="root">
-    <header class="headeng">
-        <a href="index.html" target="_blank" class="headeng__main">
-            <p class="headeng__title">на главную страницу</p>
-        </a>
-        <ul class="headeng__list">
-            <li class="headeng__item">email:1w1w1w1w1w1@gmail.com</li>
-            <li class="headeng__item">+7(999)9999999</li>
-            <li class="headeng__item">Вконтакет</li>
-            <li class="headeng__item">Telegram</li>
+    <header class="header">
+        <img src="./images/logo.png" alt="Логотип" class="header__img">
+        <ul class="header__items">
+            <li class="header__item">
+                <a href="index.html" class="heard__item-text">Главная</a>
+            </li>
+            <li class="header__item">
+                <a href="students.html" class="heard__item-text">Студенты</a>
+            </li>
+            <li class="header__item">
+                <a href="lecture.html" class="heard__item-text">О курсе</a>
+            </li>
+            <li class="header__item">
+                <a href="contacts.html" class="heard__item-text">Контакты</a>
+            </li>
         </ul>
+        <button type="button" class="login-button">Войти</button>
+        <div class="overlay on-popap">
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <img src="./images/close.svg" alt="закрытие" class="popup__close">
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+        </div>
     </header>
     <div class="page">
         <div class="info">
